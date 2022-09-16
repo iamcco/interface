@@ -4238,17 +4238,17 @@
     "@types/react" "*"
     prop-types "^15.5.7"
 
-"@visx/grid@^2.6.0":
-  version "2.6.0"
-  resolved "https://registry.npmjs.org/@visx/grid/-/grid-2.6.0.tgz"
-  integrity sha512-LH4yioffUZRT1ic3KSYqhimF6GPZCs3jzv4Xdz5gNVsSbEY4BOQyulxtq8375Z80DpLwK1VQAMxoNdj1EDkxIg==
+"@visx/grid@^2.12.2":
+  version "2.12.2"
+  resolved "https://registry.yarnpkg.com/@visx/grid/-/grid-2.12.2.tgz#32956dbb2ca88b24a057a7d559a46ba5e617df08"
+  integrity sha512-lyMQvq5afjOh0nRqF0OBjgsLfsgUeLcFc95oj0FJ/NJ/MvtI6Gd5BxxbmYzuVfZ4f0Dm1pvtBu1swoB3451tkg==
   dependencies:
     "@types/react" "*"
     "@visx/curve" "2.1.0"
-    "@visx/group" "2.1.0"
+    "@visx/group" "2.10.0"
     "@visx/point" "2.6.0"
     "@visx/scale" "2.2.2"
-    "@visx/shape" "2.4.0"
+    "@visx/shape" "2.12.2"
     classnames "^2.3.1"
     prop-types "^15.6.2"
 
@@ -4256,6 +4256,15 @@
   version "2.1.0"
   resolved "https://registry.npmjs.org/@visx/group/-/group-2.1.0.tgz"
   integrity sha512-bZKa54yVjGYPZZhzYHLz4AVlidSr4ET9B/xmSa7nnictMJWr7e/IuZThB/bMfDQlgdtvhcfTgs+ZluySc5SBUg==
+  dependencies:
+    "@types/react" "*"
+    classnames "^2.3.1"
+    prop-types "^15.6.2"
+
+"@visx/group@2.10.0":
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/@visx/group/-/group-2.10.0.tgz#95839851832545621eb0d091866a61dafe552ae1"
+  integrity sha512-DNJDX71f65Et1+UgQvYlZbE66owYUAfcxTkC96Db6TnxV221VKI3T5l23UWbnMzwFBP9dR3PWUjjqhhF12N5pA==
   dependencies:
     "@types/react" "*"
     classnames "^2.3.1"
@@ -4308,7 +4317,25 @@
     d3-scale "^3.3.0"
     d3-time "^2.1.1"
 
-"@visx/shape@2.4.0", "@visx/shape@^2.4.0":
+"@visx/shape@2.12.2", "@visx/shape@^2.4.0":
+  version "2.12.2"
+  resolved "https://registry.yarnpkg.com/@visx/shape/-/shape-2.12.2.tgz#81ed88bf823aa84a4f5f32a9c9daf8371a606897"
+  integrity sha512-4gN0fyHWYXiJ+Ck8VAazXX0i8TOnLJvOc5jZBnaJDVxgnSIfCjJn0+Nsy96l9Dy/bCMTh4DBYUBv9k+YICBUOA==
+  dependencies:
+    "@types/d3-path" "^1.0.8"
+    "@types/d3-shape" "^1.3.1"
+    "@types/lodash" "^4.14.172"
+    "@types/react" "*"
+    "@visx/curve" "2.1.0"
+    "@visx/group" "2.10.0"
+    "@visx/scale" "2.2.2"
+    classnames "^2.3.1"
+    d3-path "^1.0.5"
+    d3-shape "^1.2.0"
+    lodash "^4.17.21"
+    prop-types "^15.5.10"
+
+"@visx/shape@2.4.0":
   version "2.4.0"
   resolved "https://registry.npmjs.org/@visx/shape/-/shape-2.4.0.tgz"
   integrity sha512-D6XdGCgWi0/0ZKJ5iK8W5gILCKdrbDwnR/e7o6n/favLU0o+ntiI4a9PZBZ5bYS0aFNG7r+miGMcWV/AQfODuA==
