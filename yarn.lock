@@ -3348,10 +3348,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@paraswap/sdk@5.6.0-alpha.3":
-  version "5.6.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/@paraswap/sdk/-/sdk-5.6.0-alpha.3.tgz#923d901aaa16a4607bd2c0c4472b2f20d7c2ae5e"
-  integrity sha512-QsnTMufR4UG22sVB685GDgkA2jb1K/Hdj3JnwHGwAEIOZ7paZvhKyhJ883ctmgbsC/lu//Dgh/wVnRsK7efmEQ==
+"@paraswap/sdk@5.6.0-alpha.6":
+  version "5.6.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@paraswap/sdk/-/sdk-5.6.0-alpha.6.tgz#e61dbc6d77a2a248891d5a9fe2ad43a6a6795d5b"
+  integrity sha512-LEb3IDJza6zypN3RrIukw8nQei243fiAq9IbJ5ighmhCJ15F2Dlix9GbeLrjVr190TtaHzkTfUwyF5mGL9cW2w==
   dependencies:
     paraswap-core "^1.0.2"
     ts-essentials "^9.1.2"
