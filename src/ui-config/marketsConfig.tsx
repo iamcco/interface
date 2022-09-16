@@ -63,6 +63,7 @@ export enum CustomMarket {
   proto_arbitrum_v3 = 'proto_arbitrum_v3',
   // v2
   proto_mainnet = 'proto_mainnet',
+  proto_mainnetv2 = 'proto_mainnetv2',
   proto_avalanche = 'proto_avalanche',
   proto_fuji = 'proto_fuji',
   proto_polygon = 'proto_polygon',
@@ -76,6 +77,33 @@ export enum CustomMarket {
 export const marketsData: {
   [key in keyof typeof CustomMarket]: MarketDataType;
 } = {
+  [CustomMarket.proto_mainnetv2]: {
+    marketTitle: 'ETHW Ethereum',
+    chainId: 10001,
+    enabledFeatures: {
+      governance: true,
+      staking: true,
+      liquiditySwap: true,
+      collateralRepay: true,
+      incentives: true,
+    },
+    rpcOnly: true,
+    addresses: {
+      LENDING_POOL_ADDRESS_PROVIDER: '0xB53C1a33016B2DC2fF3653530bfF1848a515c8c5'.toLowerCase(),
+      LENDING_POOL: '0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9',
+      WETH_GATEWAY: '0xEFFC18fC3b7eb8E676dac549E0c693ad50D1Ce31',
+      REPAY_WITH_COLLATERAL_ADAPTER: '0x80Aca0C645fEdABaa20fd2Bf0Daf57885A309FE6',
+      SWAP_COLLATERAL_ADAPTER: '0x135896DE8421be2ec868E0b811006171D9df802A',
+      WALLET_BALANCE_PROVIDER: '0x8E8dAd5409E0263a51C0aB5055dA66Be28cFF922',
+      UI_POOL_DATA_PROVIDER: '0x30375522F67a6308630d49A694ca1491fA2D3BC6',
+      UI_INCENTIVE_DATA_PROVIDER: '0xD01ab9a6577E1D84F142e44D49380e23A340387d',
+      COLLECTOR: '0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c',
+    },
+    halIntegration: {
+      URL: 'https://app.hal.xyz/recipes/aave-track-your-health-factor',
+      marketName: 'aavev2',
+    },
+  },
   [CustomMarket.proto_mainnet]: {
     marketTitle: 'Ethereum',
     chainId: ChainId.mainnet,
